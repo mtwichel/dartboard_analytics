@@ -1,0 +1,21 @@
+name: dartboard_analytics_bloc
+description: A BlocObserver that reports to DartboardAnalytics
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.7.0
+  flutter: ^3.29.0
+
+dependencies:
+  bloc: ^9.0.0
+  dartboard_analytics:
+    path: ../dartboard_analytics
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.4
+  very_good_analysis: ^6.0.0

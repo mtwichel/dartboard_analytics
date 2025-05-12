@@ -1,0 +1,20 @@
+name: dartboard_analytics
+description: A Dart interface for the dartboard_analytics API.
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  equatable: ^2.0.7
+  http: ^1.4.0
+  path: ^1.9.1
+  path_provider: ^2.1.5
+  uuid: ^4.5.1
+  web: ^1.1.1
+
+dev_dependencies:
+  mocktail: ^1.0.4
+  test: ^1.25.8
+  very_good_analysis: ^6.0.0
